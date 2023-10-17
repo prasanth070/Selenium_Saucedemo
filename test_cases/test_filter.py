@@ -8,8 +8,8 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-from test_cases.Test_login import test_login
-from test_cases.Test_login import test_login , test_logout
+from test_cases.test_login import test_login
+from test_cases.test_login import test_login , test_logout
 
 class TestUntitled():
     def setup_method(self, method):

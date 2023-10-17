@@ -3,18 +3,11 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
-from test_cases.Test_login import test_login, test_logout
+from test_cases.test_login import test_login, test_logout
 
 
 
 class TestUntitled():
-    def setup_method(self, method):
-        self.driver = webdriver.Chrome()
-        self.vars = {}
-
-    def teardown_method(self, method):
-        self.driver.quit()
-
 
     def test_content_val(self):
         self.driver = webdriver.Chrome()
